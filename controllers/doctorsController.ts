@@ -4,6 +4,7 @@ import doctorModel from "../models/doctorModel";
 import ErrorHandler from "../utils/ErrorHandler";
 import { sendToken, sendToken2 } from "../utils/jwt";
 import { RequestDoctorApi } from "../types/custom";
+import { Response } from "express";
 
 interface IDoctorLoginRequest {
   email: string;
